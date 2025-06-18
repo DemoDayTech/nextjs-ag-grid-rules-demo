@@ -1,40 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+## Background
+This web app was created with Next.js, a React framework. This demos the use of AG Grid to display an Excel like table whose cells can be edited/updated. As cells are updated, the values within that updated row are sent to a JSON Rules Engine, which calculates the Price column based on pre-defined rules.
 
-## Getting Started
+The Last JSON Rule which was applied based on the latest user update in the table can be seen in the area at the bottom of the page for your reference.
 
-First, run the development server:
+This demo is meant to show how one would build an Excel like table for a website, in which various combinations of user selections are used to calculate a price.
+
+The column names and values used are examples of Cloud Infrastructure selections which one would make to determine a total price for their cloud infrastructure.
+
+## Demo
+[▶️ Watch Demo Video](./demodaytech-react-ag-grid-json-rules-demo.mov)
+
+
+## Running Locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to view the web app.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Technologies Used
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- Next.js bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app)
+- React.js
+- AG Grid
+- A simple JSON Rules Engine
