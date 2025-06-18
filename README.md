@@ -8,7 +8,7 @@ This demo is meant to show how one would build an Excel like table for a website
 The column names and values used are examples of Cloud Infrastructure selections which one would make to determine a total price for their cloud infrastructure.
 
 ## Demo
-
+[![Watch the demo](./screenshot.png)](https://www.youtube.com/watch?v=gs0I0xuUZ_A)
 
 
 ## Running Locally
@@ -17,9 +17,6 @@ The column names and values used are examples of Cloud Infrastructure selections
 npm install
 npm run dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to view the web app.
-
 
 ## Technologies Used
 
