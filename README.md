@@ -8,7 +8,7 @@ This demo is meant to show how one would build an Excel like table for a website
 The column names and values used are examples of Cloud Infrastructure selections which one would make to determine a total price for their cloud infrastructure.
 
 ## Demo
-[▶️ Watch Demo Video](./demodaytech-react-ag-grid-json-rules-demo.mov)
+
 
 
 ## Running Locally
